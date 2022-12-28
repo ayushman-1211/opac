@@ -10,6 +10,13 @@ import {
 } from "react-router-dom";
 import Rank from "./Rank"
 
+const New = () =>{
+  return(
+    <h1> hyy </h1>
+  );
+}
+
+
 const App = () => {
 
 
@@ -18,6 +25,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Agent />} />
         <Route path="/rank" element={<Rank/>} />
+        <Route path="/new" element={<New/>}/>
       </Routes>
     </Router>
   );
